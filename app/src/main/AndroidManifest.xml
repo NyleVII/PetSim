@@ -25,6 +25,71 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ChooseActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_choose"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".OgreChooseActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_ogre_choose"
+            android:parentActivityName=".ChooseActivity"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="seng301.petsim.ChooseActivity" />
+        </activity>
+        <activity
+            android:name=".Troll_ChooseActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_troll__choose"
+            android:parentActivityName=".ChooseActivity"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="seng301.petsim.ChooseActivity" />
+        </activity>
+        <activity
+            android:name=".Orcs_ChooseActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_orcs__choose"
+            android:parentActivityName=".ChooseActivity"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="seng301.petsim.ChooseActivity" />
+        </activity>
+        <activity
+            android:name=".Goblin_ChooseActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_goblin__choose"
+            android:parentActivityName=".ChooseActivity"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="seng301.petsim.ChooseActivity" />
+        </activity>
+        <activity
+            android:name=".Gremlin_ChooseActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_gremlin__choose"
+            android:parentActivityName=".ChooseActivity"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="seng301.petsim.ChooseActivity" />
+        </activity>
+        <activity
+            android:name=".Imp_ChooseActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_imp__choose"
+            android:parentActivityName=".ChooseActivity"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="seng301.petsim.ChooseActivity" />
+        </activity>
     </application>
 
 </manifest>

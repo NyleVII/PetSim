@@ -2,4 +2,20 @@
     <string name="app_name">Pet Sim</string>
     <string name="action_settings">Settings</string>
     <string name="titleScreen">titleScreen</string>
+
+    <string name="title_activity_choose">ChooseActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_ogre_choose">OgreChooseActivity</string>
+
+    <string name="title_activity_troll__choose">Troll_ChooseActivity</string>
+
+    <string name="title_activity_orcs__choose">Orcs_ChooseActivity</string>
+
+    <string name="title_activity_goblin__choose">Goblin_ChooseActivity</string>
+
+    <string name="title_activity_gremlin__choose">Gremlin_ChooseActivity</string>
+
+    <string name="title_activity_imp__choose">Imp_ChooseActivity</string>
 </resources>
